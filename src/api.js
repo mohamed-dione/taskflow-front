@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 // URL du backend : accepte une URL avec ou sans /api final.
-const RAW_API = import.meta.env.VITE_API_URL || "https://taskflow-backend-7yfk.onrender.com";
+const RAW_API = import.meta.env.VITE_API_URL || "https://taskflow-backend-ixpg.onrender.com";
 
 const NORMALIZED_API = RAW_API.trim().replace(/\/+$/, "");
 
