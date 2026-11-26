@@ -1,4 +1,3 @@
-
 import { useCallback, useEffect, useRef, useState } from "react";
 
 // URL du backend : accepte une URL avec ou sans /api final.
